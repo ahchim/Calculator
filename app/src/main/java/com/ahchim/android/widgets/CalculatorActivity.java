@@ -11,7 +11,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class WidgetActivity extends AppCompatActivity implements View.OnClickListener{
+public class CalculatorActivity extends AppCompatActivity implements View.OnClickListener{
     TextView result;
     TextView preview;
 
@@ -39,7 +39,7 @@ public class WidgetActivity extends AppCompatActivity implements View.OnClickLis
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_widget);
+        setContentView(R.layout.activity_calculator);
 
         result = (TextView) findViewById(R.id.result);
         preview = (TextView) findViewById(R.id.preview);
